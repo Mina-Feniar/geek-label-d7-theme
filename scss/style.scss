@@ -1,0 +1,27 @@
+// Default variables.
+@import 'default-variables';
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Base
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/base';
+@import 'base/typography';
+
+// Helpers
+@import 'helpers/mixins';
+
+// Components
+@import 'components/paragraphs';
+@import 'components/sliders';
+
+// Pages
+@import 'pages/home';
+
+// FontAwesome
+@import "../node_modules/font-awesome/scss/font-awesome";

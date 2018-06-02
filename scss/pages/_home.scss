@@ -1,0 +1,43 @@
+#fullpage {
+  .section-arrow {
+    position: absolute;
+    right: 0;
+    left: 50%;
+    bottom: 7px;
+    transform: translate(-50%, 0);
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    z-index: 10;
+    &.s1 {
+      color: #fff;
+      border: 2px solid #fff;
+      background-color: $red-ribbon;
+      a.anchor, a.anchor:focus, a.anchor:hover {
+        color: #fff;
+      }
+    }
+    &.s2 {
+      color: $dark-gray;
+      border: 2px solid $dark-gray;
+      background-color: #fff;
+      a.anchor, a.anchor:focus, a.anchor:hover {
+        color: $dark-gray;
+      }
+    }
+    &.s3 {
+      color: $dark-gray;
+      border: 2px solid $dark-gray;
+      background-color: #F0F2F2;
+      a.anchor, a.anchor:focus, a.anchor:hover {
+        color: $dark-gray;
+      }
+    }
+    span.glyphicon {
+      @include centerer;
+    }
+  }
+}
