@@ -34,7 +34,7 @@ $ npm start
 - [Ckeditor]
 - [Webform]
 
-## Overrides {#overrides}
+## Overrides:
 The `./geek_label/scss/_default-variables.scss` file is generally where you will
 spend the majority of your time providing any default variables that should be
 used by the [Bootstrap Framework] instead of its own.
