@@ -1,35 +1,35 @@
 # Geek Label Drupal 7 responsive theme
 Version 1.0
 
-##Contributors:
+## Contributors:
 @Mina-Feniar
 
-##Summary:
+## Summary:
 - Geek Label is a responsive theme extending Twitter [Bootstrap Framework] (sub-theme from [Bootstrap] theme).
 - Uses HTML5, CSS3, SCSS, JavaScript, jQuery, Gulp, Bootstrap framework, and FontAwesome.
 
-##Usage:
+## Usage:
 The theme is setup to use Gulp to compile SCSS files and minify CSS.
 - Compile scss/style.scss to css/style.css (minified).
 
-###Prerequisites:
+### Prerequisites:
 - Download and enable Drupal 7 [Bootstrap] theme version 7.x-3.20
 
-###Installation:
+### Installation:
 Install the dependencies (gulp, gulp-sass, browser-sync, font-awesome) 
 $ npm install
 
-###Run:
+### Run:
 This will watch your sass files, compile them and run your dev server at http://localhost:3000 
 $ npm start
 
-##Features:
+## Features:
 - Sub-theme from [Bootstrap] theme
 - Preprocessors used: SCSS
 - Integrated with [Fullpage.js] plugin to support having Fullscreen Scrolling
 
 
-##Suggested Modules:
+## Suggested Modules:
 - [Paragraphs]
 - [Ckeditor]
 - [Webform]
